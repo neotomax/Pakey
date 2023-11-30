@@ -5,17 +5,17 @@ on:
       platform:
         description: 'platform'
         required: true
-        default: 'macos-latest'
+        default: 'windows-latest'
         type: choice
         options:
           - 'windows-latest'
           - 'macos-latest'
           - 'ubuntu-20.04'
       url:
-        description: '[URL]'
+        description: 'http://www.openthesaurus.de'
         required: true
       name:
-        description: '[Name]'
+        description: 'OpenThesaurus'
         required: true
       icon:
         description: '[Icon, Optional]'
